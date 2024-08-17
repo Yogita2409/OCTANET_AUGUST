@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Noto+Music&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-content .background-img img{
+    width: 100%;
+    height: 450px;
+}
+.home{
+    background-image: url(backgroundimg.webp) ;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+    
+}
+
+.background header{
+    background-color: rgb(33, 2, 19);
+    color: aliceblue;
+    height: 50px;
+    
+   
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    padding-right: 20px;
+   
+}
+ li:hover{
+    color: rgb(214, 143, 162);
+   
+}
+.home .home-content h1{
+    font-size: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.home .home-content h1 span{
+    color: rgb(78, 5, 46);
+}
+.home .home-content h3{
+    color: rgb(240, 159, 186);
+    font-family: "Grey Qo", cursive;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.home .home-content h3 span{
+    color: white;
+}
+ h4{
+    font-family:  "Dancing Script", cursive;
+    color: bisque;
+    font-size: 20px;
+
+}
+h4 span{
+    color: rgb(182, 27, 64);
+
+}
+body{
+    background-color: rgb(33, 0, 14);
+    
+}
+
+section.content p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family:  "Roboto", sans-serif;
+}
+section.content h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family:  "Roboto", sans-serif;
+}
+section.content video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: 51px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 514px;
+    width: 1165px;
+    cursor: pointer;
+    
+}
+section.three h1{
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family:  "Roboto", sans-serif;
+}
+section.three h1 span{
+    font-family:  "Noto Music", sans-serif;
+    color:  rgb(247, 152, 206);
+    font-size: 150px;
+}
+section.three .music h4{
+    font-family:  "Roboto", sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+section.three .music{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+    cursor: pointer;
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+   
+  
+    
+
+}
+
+section.three .music .pop video:hover{
+    transform: translateY(-10px);
+    
+    box-shadow: 0 0 50px white,
+                0 0 100px white,
+                0 0 150px white;
+    
+
+}
+section.three .music .pop video{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+section.artist h1{
+    font-size: 100px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+section.artist h1 span{
+    font-size: 150px;
+    color:  rgb(235, 151, 199);
+    font-family: "Roboto", sans-serif;
+}
+section.artist .artist1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+    cursor: pointer;
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+   
+
+}
+section.artist .artist1 h4{
+    font-family:  "Roboto", sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+section.artist .artist1 img{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+section.artist .artist1 img:hover{
+    box-shadow: 0 0 50px white,
+                0 0 100px white,
+                0 0 150px white;
+    transform: translateY(-10px);
+}
+section.song h1{
+    font-size: 100px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+section.song h1 span{
+    font-size: 150px;
+    color:  rgb(219, 134, 182);
+    font-family: "Roboto", sans-serif;
+    
+}
+section.song .song .song1 h4{
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+section.song .song{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+    cursor: pointer;
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+}
+section.home .home-content .button{
+    margin-top: 31px;
+    margin-right: 60px;
+    width: 105px;
+    height: 33px;
+    font-size: 20px;
+    color: black;
+    background-color: #aa7881;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section.home .home-content .button:hover{
+    color: pink;
+    box-shadow: 0 0 50px white,
+                0 0 100px white,
+                0 0 150px white;
+}
+section.home .home-content .button2{
+    margin-top: 31px;
+    width: 105px;
+    height: 33px;
+    font-size: 20px;
+    color: black;
+    background-color: #aa7881;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section.home .home-content .button2:hover{
+    color: pink;
+    box-shadow: 0 0 50px white,
+                0 0 100px white,
+                0 0 150px white;
+}
+.background header nav .search input{
+    display: inline;
+    width: 372px;
+    height: 31px;
+    margin-top: 6px;
+    border: 2px solid pink;
+    border-radius: 5px;
+    margin-left: 384px;
+    cursor: pointer;
+}
+.background header nav .search .btn{
+    display: inline;
+    width: 65px;
+    height: 31px;
+    margin-top: 6px;
+    background-color: #c18a94;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.background header nav .search .btn:hover{
+    color: pink;
+    box-shadow: 0 0 50px white,
+                0 0 100px white,
+                0 0 150px white;
+}
+section.content .show{
+    justify-content: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-left: 553px;
+  width: 185px;
+  height: 39px;
+  font-size: 17px;
+  background-color: #bf9098;
+  cursor: pointer;
+  margin-top: 27px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+section.content .show:hover{
+    color: pink;
+    box-shadow: 0 0 50px white,
+                0 0 100px white,
+                0 0 150px white;
+}
+section.content p.Book{
+    font-family:  "Grey Qo", cursive;
+    margin-top: 20px;
+    font-size: 45px;
+}
+ p.money{
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+footer .footer{
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+footer .info{
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    height: 452px;
+}
+section.song .song1 iframe{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+section.song .song1 iframe:hover{
+    box-shadow: 0 0 50px white,
+                 0 0 100px white,
+                 0 0 150px white;
+     transform: translateY(-10px);              
+}
